@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"vmSSName": {
-			"value": "changeme"
+			"value": "VMSSScale"
 		},
 		"instanceCount": {
 			"value": 2
@@ -11,17 +11,17 @@
 		"vmSize": {
 			"value": "Standard_D1"
 		},
-		"dnsNamePrefix": {
+		"$dnsNamePrefix": {
 			"value": "changeme"
 		},
 		"adminUsername": {
-			"value": "changeme"
+			"value": "azureuser"
 		},
 		"adminPassword": {
-			"value": "changeme"
+			"value": "Admin@1234567"
 		},
 		"sourceImageVhdUri": {
-			"value": "changeme"
+			"value": "https://sourcestrg.blob.core.windows.net/vhds/VMSSVM20170322101600.vhd"
 		},
 		"frontEndLBPort": {
 			"value": 80
